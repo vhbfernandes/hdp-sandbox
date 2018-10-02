@@ -1,6 +1,9 @@
 # HDP-sandbox
 Hortonworks sandbox containers simplified install
 
+## tl;dr:
+    ```sh newbiemode.sh```
+
 ## Requirements:
   - Docker
   - docker-compose
