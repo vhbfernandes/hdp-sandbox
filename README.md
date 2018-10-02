@@ -2,21 +2,21 @@
 Hortonworks sandbox containers simplified install
 
 ## tl;dr:
-    ```sh newbiemode.sh```
+   ```$ sh newbiemode.sh```
 
 ## Requirements:
   - Docker
   - docker-compose
 
 ## Run
-   ```docker-compose up -d```
+   ```$ docker-compose up -d```
 
 Ambari will be exposed in localhost port 8080
 
 ### Log in to sandbox-hdp to reset admin password:
 
-```docker exec -it sandbox-hdp bash```
+```$ docker exec -it sandbox-hdp bash```
 
 Then:
 
-```ambari-admin-password-reset```
+```$ ambari-admin-password-reset```
