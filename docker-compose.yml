@@ -9,7 +9,6 @@ services:
             cda:
                 aliases:
                     - sandbox-hdp.hortonworks.com
-        restart: unless-stopped
         privileged: true
         
     sandbox-proxy: 
@@ -23,7 +22,6 @@ services:
             - ./assets/sandbox/proxy/conf.stream.d:/etc/nginx/conf.stream.d
         networks: 
             - cda
-        restart: unless-stopped
         ports:
             - 1080:1080
             - 4200:4200
