@@ -3,8 +3,10 @@ Hortonworks sandbox containers simplified install
 
 ## tl;dr:
    ```$ git clone https://github.com/vhbfernandes/hdp-sandbox.git```
+
+   ```$ chmod +x newbiemode.sh```
    
-   ```$ sh newbiemode.sh```
+   ```$ ./newbiemode.sh```
 
 ## Requirements:
   - Docker
