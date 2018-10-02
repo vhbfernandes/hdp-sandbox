@@ -11,7 +11,7 @@ then
     sudo usermod -aG docker $USER
 fi
 
-if [[ ]];
+if [[ "$havecompose" =~ "$notfoundstring" ]];
 then
     echo "docker-compose will be installed on your system"
 
